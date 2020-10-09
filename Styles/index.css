@@ -587,8 +587,7 @@ footer > span {
     flex-direction: column;
   }
 
-  .navbar-input,
-  .navbar-close {
+  .navbar-input, .navbar-close {
     display: none;
   }
 
