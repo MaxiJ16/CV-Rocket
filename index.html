@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="Styles/index.css" rel="stylesheet" >
+  <link rel="stylesheet" href="normalize.css">
+  <link href="imagenes/man.png" rel="icon"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+  <title>MaxiJofre</title>
+</head> 
+
+<body>  
+  <div class="main-container">
+     <section class="navbar-container__desktop">
+         <h1>Maxi Jofré</h1>
+         <nav>
+            <ul class="nav-list">
+              <a href="index.html" class="nav-a"><i class="fas fa-home" aria-hidden="true"></i>Inicio</a>
+              <a href="#skills" class="nav-a"><i class="fas fa-id-card-alt"></i> Sobre Mí</a>
+              <a href="#service" class="nav-a"><i class="fas fa-briefcase" aria-hidden="true"></i> Servicios</a>
+              <a href="#experience" class="nav-a"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Experiencia</a>
+              <a href="#works" class="nav-a"><i class="fas fa-th-large"></i> Mis Trabajos</a>
+              <a href="#contactme" class="nav-a"><i class="fas fa-mail-bulk"></i> Contactame</a>
+            </ul>
+         </nav>
+     </section>
+
+    <div class="full-container">
+      <section class="navbar-container__mobile">
+        <nav class="navbar-container__mobile__list">
+          <label for="navbar" class="navbar-container__mobile__list__label">
+            <input type="checkbox" id="navbar" class="navbar-input" />
+            <div class="navbar-open">
+              <i class="fas fa-bars"></i>
+            </div>
+            <div class="navbar-close">
+              <i class="fas fa-times"></i>
+            </div>
+            <div class="navbar-contet">
+              <a href="index.html" class="nav-a"><i class="fas fa-home" aria-hidden="true"></i>Inicio</a>
+              <a href="#skills" class="nav-a"><i class="fas fa-id-card-alt"></i> Sobre Mí</a>
+              <a href="#service" class="nav-a"><i class="fas fa-briefcase" aria-hidden="true"></i> Servicios</a>
+              <a href="#experience" class="nav-a"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Experiencia</a>
+              <a href="#works" class="nav-a"><i class="fas fa-th-large"></i> Mis Trabajos</a>
+              <a href="#contactme" class="nav-a"><i class="fas fa-mail-bulk"></i> Contactame</a>
+            </div>
+          </label>
+        </nav>
+      </section>
+
+      <section class="banner-container" id="home">
+        <div class="background-image"></div>
+        <div class="banner-content">
+          <img class="avatar" src="imagenes/man.png" alt="avatar"/>
+          <h2 class="title-banner">Maxi Jofré</h2>
+          <span>Desarrollador Web</span>
+          <div class="social-banner">
+            <a class="social-net" href="https://www.linkedin.com/in/maximiliano-jofr%C3%A9-0b7a781a8/"><i class="fab fa-linkedin-in"></i></a>
+            <a class="social-net" href="https://github.com/MaxiJ16"><i class="fab fa-github"></i></a>
+            <a class="social-net" href="https://www.instagram.com/maaxij/"><i class="fab fa-instagram"></i></a>
+            <a class="social-net" href="https://www.facebook.com/Maxij16"><i class="fab fa-facebook-f"></i></a>
+          </div>
+          <a href="#contactme"><button type="button" class="but">Contactame</button></a>
+        </div>
+        <a class="banner-container__scroll" href="#skills">
+          <span>Scroll Down</span>
+          <img class="scroll" src="imagenes/scroll.png" alt="scroll"/>
+        </a>
+      </section>
+
+      <section class="skills-container container" id="skills">
+        <h3 class="title-skills">Sobre Mí</h3>
+        <div class="box-skills">
+          <img src="imagenes/man.png" alt="imgskills"/>
+          <div class="card-global">
+            <div class="card-skills-descript">
+              <span>Hola! Me estoy especializando en desarrollo web, estoy aprendiendo HTML & CSS y luego pienso continuar con JavaScript.</span>
+              <button class="button-skills"><a href="https://www.linkedin.com/in/maximiliano-jofr%C3%A9-0b7a781a8/">Ver currículum</a></button>
+            </div>
+            <div class="card-skills">
+              <div class="card-skills-2">
+                <h3>HTML</h3>
+                <div class="card-skills-bar">
+                  <div class="card-skills-bar-bar"></div>
+                </div>
+              </div>
+              <div class="card-skills-2">
+                <h3>CSS</h3>
+                <div class="card-skills-bar">
+                  <div class="card-skills-bar-bar"></div>
+                </div>
+              </div>
+              <div class="card-skills-2">
+                <h3>JavaScript</h3>
+                <div class="card-skills-bar">
+                  <div class="card-skills-bar-bar"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services-container container" id="service">
+        <h3 class="title-service">Servicios</h3>
+        <div class="global-service">
+          <div class="card-service">
+            <div class="card-service-ht">
+              <img class="img-service" src="imagenes/dev.svg" alt=ht>
+              <h3>HTML</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis repellendus quaerat pariatur quidem ipsa ducimus?.</p>
+            </div>
+          </div>
+          <div class="card-service" class="card-service-cs">
+            <img class="img-service" src="imagenes/css.svg" alt="cs">
+            <h3>CSS</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis repellendus quaerat pariatur quidem ipsa ducimus?. </p>
+          </div>
+          <div class="card-service" class="card-service-js">
+            <img class="img-service" src="imagenes/javascript.svg" alt="cs">
+            <h3>JAVASCRIPT</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis repellendus quaerat pariatur quidem ipsa ducimus?.</p>
+          </div>
+        </div>
+      </section>
+
+      
+
+      <section class="experience-container container" id="experience">
+        <h3 class="title-content">Experiencia</h3>
+        <div class="experience-container__topics">
+          <div class="experience-container__topics__card">
+            <div class="experience-container__topics__card__data">
+              <i class="fas fa-graduation-cap"></i>
+                <span class="experience-container__topics__card__data__date">2020</span>
+                <span class="experience-container__topics__card__data__title">Rocket Code</span>
+                <p class="experience-container__topics__card__data__description">HTML5 & CSS3</p>
+            </div>
+            <div class="experience-container__topics__card__data">
+              <i class="fas fa-graduation-cap"></i>
+                <span class="experience-container__topics__card__data__date">2015 - 2019</span>
+                <span class="experience-container__topics__card__data__title">Academy</span>
+                <p class="experience-container__topics__card__data__description">Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+            </div>
+            <div class="experience-container__topics__card__data">
+              <i class="fas fa-graduation-cap"></i>
+                <span class="experience-container__topics__card__data__date">2010 - 2015</span>
+                <span class="experience-container__topics__card__data__title">Academy</span>
+                <p class="experience-container__topics__card__data__description">Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+            </div>
+          </div>
+          <div class="experience-container__topics__card">
+              <div class="experience-container__topics__card__data">
+                <i class="fas fa-graduation-cap"></i>
+                  <span class="experience-container__topics__card__data__date">2020</span>
+                  <span class="experience-container__topics__card__data__title">Jovenes Programadores Cl</span>
+                  <p class="experience-container__topics__card__data__description">JavaScript I - Curso Básico de JS</p>
+              </div>
+              <div class="experience-container__topics__card__data">
+                <i class="fas fa-graduation-cap"></i>
+                  <span class="experience-container__topics__card__data__date">2015 - 2019</span>
+                  <span class="experience-container__topics__card__data__title">Academy</span>
+                  <p class="experience-container__topics__card__data__description">Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+              </div>
+              <div class="experience-container__topics__card__data">
+                <i class="fas fa-graduation-cap"></i>
+                  <span class="experience-container__topics__card__data__date">2010 - 2015</span>
+                  <span class="experience-container__topics__card__data__title">Academy</span>
+                  <p class="experience-container__topics__card__data__description">Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="works-container container" id="works">
+        <h3 class="title-content">Mis trabajos</h3>
+        <div class="works-container__topics">
+          <div class="works-container__topics__card">
+            <img class="imgs" src="imagenes/undraw_Social_media_re_w12q.svg" alt="img1">
+            <div class="works-container__topics__card__mask">
+              <span>Social Media</span>
+            </div>
+          </div>
+          <div class="works-container__topics__card">
+            <img class="imgs" src="imagenes/undraw_accept_tasks_po1c.svg" alt="img2">
+            <div class="works-container__topics__card__mask">
+              <span>Accept tasks</span>
+            </div>
+          </div>
+          <div class="works-container__topics__card">
+            <img class="imgs" src="imagenes/undraw_Status_update_re_dm9y.svg" alt="img3">
+            <div class="works-container__topics__card__mask">
+              <span>Status Update</span>
+            </div>
+          </div>
+          <div class="works-container__topics__card">
+            <img class="imgs" src="imagenes/undraw_business_decisions_gjwy.svg" alt="img4">
+            <div class="works-container__topics__card__mask">
+              <span>Bussines Decision</span>
+            </div>
+          </div>
+          <div class="works-container__topics__card">
+            <img class="imgs" src="imagenes/undraw_survey_05s5.svg" alt="img5">
+            <div class="works-container__topics__card__mask">
+              <span>Survey</span>
+            </div>
+          </div>
+          <div class="works-container__topics__card">
+            <img class="imgs" src="imagenes/undraw_working_from_anywhere_ub67.svg" alt="img6">
+            <div class="works-container__topics__card__mask">
+              <span>Working</span>
+            </div>
+          </div>
+        </div>
+        <button type="button"><a href="#works">Ver Todos</a></button>
+      </section>
+
+      <section class="contactme-container container" id="contactme">
+        <h3 class="title-content">Contactame</h3>
+        <div class="contactme-container__all">
+          <div class="contactme-container__all__letters">
+            <span>Enviame un mensaje!</span>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi beatae ex labore. </p>
+          </div>
+          <div class="contactme-container__all__form">
+            <form>
+              <label for="name"></label>
+              <input class="name__form" id="name" name="first_name" placeholder="Nombre" required/>
+              <label for="mail"></label>
+              <input class="mail__form" id="mail" type="email" name="e-mail" placeholder="Email" required/>
+              <label for="large_text"></label>
+              <textarea id="large_text" name="textl" placeholder="Tu mensaje"  required minlength="5"></textarea>
+              <button type="submit">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <span>Maxi Jofré</span>
+        <div class="foot-media">
+          <a class="foot-net" href="https://www.linkedin.com/in/maximiliano-jofr%C3%A9-0b7a781a8/"><i class="fab fa-linkedin-in"></i></a>
+          <a class="foot-net" href="https://github.com/MaxiJ16"><i class="fab fa-github"></i></a>
+          <a class="foot-net" href="https://www.instagram.com/maaxij/"><i class="fab fa-instagram"></i></a>
+          <a class="foot-net" href="https://www.facebook.com/Maxij16"><i class="fab fa-facebook-f"></i></a>
+        </div>
+      </footer>
+
+    </div>
+ </div>
+  <script src="https://kit.fontawesome.com/7aa36192fa.js" crossorigin="anonymous"></script>
+</body>
+</html>
