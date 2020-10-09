@@ -578,8 +578,8 @@ footer > span {
 
   .navbar-container__mobile {
     display: block;
-    color: var(--color-terciary);
-    background-color: var(--color-primary);
+    color: var(--color-orange);
+    background-color: var(--color-black);
   }
 
   .navbar-container__mobile__list__label {
