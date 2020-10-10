@@ -644,7 +644,7 @@ footer > span {
     margin-right: 0;
   }
 
-  .card-skills-descript, .card-skills {
+  .card-skills-descript, .card-skills, .card-service, .experience-container__topics__card {
     width: 100%;
     margin-bottom: 30px;
   }
@@ -655,11 +655,6 @@ footer > span {
 
   .card-global, .global-service, .experience-container__topics {
     flex-direction: column;
-  }
-
-  .card-service, .experience-container__topics__card {
-    width: 107%;
-    margin-bottom: 25px;
   }
 
   .experience-container__topics__card__data {
